@@ -1,14 +1,15 @@
-/* uploadSectionStyles.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 .upload-container {
   padding: 40px 20px;
   margin-top: 6%;
-  margin-bottom: 4%;
+  margin-bottom: 5%;
+  min-height: 61vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
 .upload-title {
@@ -65,7 +66,7 @@
   padding: 8px 16px;
   margin-left: 10px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   font-size: 14px;
   text-align: center;

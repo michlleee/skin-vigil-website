@@ -23,7 +23,7 @@ function Navbar() {
     
     return (
         <nav className={`navbar ${showNavbar ? "show" : "hide"}`}>
-            <a href="#" className="logo-container">
+            <a href="/" className="logo-container">
                 <img src={logo} alt="Logo" className="logo"/>
             </a>
             <div className="content-container">

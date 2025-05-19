@@ -9,6 +9,7 @@
     display: inline-block;
     animation: blink 0.7s infinite;
     margin-bottom: 30px;
+    min-height: 2.2rem;
 }
 
 @keyframes blink {

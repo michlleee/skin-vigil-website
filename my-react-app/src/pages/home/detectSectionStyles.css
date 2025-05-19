@@ -37,20 +37,12 @@
 }
   
 .upload-btn {
-  background-color: #000F62;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  padding: 10px 20px;
-  font-size: 0.7rem;
-  border: none;
-  cursor: pointer;
-  font-weight: normal;
-  border-radius: 20px;
-  transition: ease-in 350ms;
-}
-  
-.upload-btn:hover {
-  background-color: rgb(48, 48, 146);
+    font-family: "Poppins", sans-serif;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+    cursor: pointer;
 }
   
 .detect-image {

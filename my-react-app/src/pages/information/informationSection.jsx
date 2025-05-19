@@ -1,10 +1,29 @@
 import './informationStyles.css';
+import CountUp from '../../components/CountUpEffect/CountUp.jsx'
+import headerImage from '../../pages/information/informationImages/headerImage.png'
 
 const InformationSection = () => {
   return (
     <div className="information-container">
-      <h2 className="information-title">Skin Cancer Information</h2>
+      <div className='header-image-container'>
+        <img src={headerImage} alt="Skin Cancer Awareness" className="header-image" />
+        <h1 className="header-text">Discover Your Answers Here</h1>
+      </div>
+      <div className="count-up-line">
+          <h1>Approximately</h1>
+          <CountUp
+            from={0}
+            to={9500}
+            separator=","
+            direction="up"
+            duration={1}
+            className="count-up-text"
+          />
+          <h1>people are diagnosed with skin cancer every day</h1>
+        </div>
+
       <div className="info-box">
+
         <h2>Risks and Causes of Skin Cancer</h2>
         <p>
         Skin cancer is primarily caused by prolonged exposure to ultraviolet (UV) radiation from the sun or tanning beds. 
@@ -29,6 +48,7 @@ const InformationSection = () => {
         By taking these preventive measures, you can significantly lower your risk and maintain healthy skin.
         </p>
       </div>
+
     </div>
   );
 };

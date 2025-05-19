@@ -44,7 +44,7 @@ function Typewriter({ text, speed = 100, pauseTime = 2000, deleteSpeed = 50 }) {
         return word + " ";
     });
 
-    return <p className="typewriter">{formattedText}</p>;
+    return <p className="typewriter">{displayedText ? formattedText : '\u00A0'}</p>;
 }
 
 export default Typewriter;
