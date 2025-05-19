@@ -1,5 +1,5 @@
 import "./mottoStyles.css";
-import checkSkin from "./checkSkin.png";
+import checkSkin from "./skinChecker.png";
 import Typewriter from "../../components/Typewriter/Typewriter";
 
 function motto(){

@@ -42,7 +42,7 @@ const InformationSection = () => {
         Apply a broad-spectrum sunscreen with SPF 30 or higher daily, even on cloudy days.
         Reapply every two hours, especially when swimming or sweating. Wearing protective clothing, such as hats, long sleeves, and sunglasses, can also shield your skin from harmful rays. 
         Avoid tanning beds, as they emit concentrated UV radiation that increases the risk of skin cancer. 
-        Seek shade during peak sun hours (10 AM – 4 PM) and stay hydrated to maintain skin health. 
+        Seek shade during peak sun hours (10 AM - 4 PM) and stay hydrated to maintain skin health. 
         Regular self-examinations and dermatologist visits are essential for early detection. 
         If you notice new or changing moles, irregular spots, or persistent skin lesions, consult a doctor immediately. 
         By taking these preventive measures, you can significantly lower your risk and maintain healthy skin.
