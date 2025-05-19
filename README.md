@@ -9,9 +9,6 @@ Skin Vigil is a web application designed to help users detect skin cancer early 
 - **Skin Cancer Detection AI**  
   Upload pictures of skin lesions and get AI-powered analysis to detect potential skin cancer signs. The AI model is integrated and deployed via Flask backend.
 
-- **UV Index Map**  
-  Access an interactive UV index map on the home page to monitor UV exposure levels in different areas, helping users take preventive measures.
-
 - **Information Page**  
   Browse recent and popular articles about skin cancer, its prevention, symptoms, and treatments to stay informed.
 
@@ -28,7 +25,7 @@ Skin Vigil is a web application designed to help users detect skin cancer early 
 - **Frontend:** React.js  
 - **Backend:** Flask (Python)  
 - **AI Model:** Skin cancer detection (details in backend folder)  
-- **Other:** UV index API integration, CSS modules for styling
+- **Other:** CSS modules for styling
 
 ---
 
