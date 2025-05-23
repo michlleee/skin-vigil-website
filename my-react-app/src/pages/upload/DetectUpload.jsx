@@ -1,5 +1,5 @@
 // src/components/UploadSection.jsx
-import "./uploadSectionStyles.css";
+import "./UploadSectionStyles.css";
 import { useState } from "react";
 import { FaFolderOpen } from "react-icons/fa";
 
